@@ -1,4 +1,4 @@
-# freeCodeCamp CSS Certification Project #1
+# freeCodeCamp CSS Certification Project #2
 
 This is my submission for the second CSS certification project on freecodecamp.org. This project is part of the Responsive Web Design Certification, which in itself is also a section of the Certified Full Stack Developer Curriculum. I have listed the link to the project prompt, project instructions, and user stories that must be included in the project.
 
