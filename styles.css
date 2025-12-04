@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.read {
+    background-image: linear-gradient(rgb(211, 255, 211), rgb(119, 255, 119));
+}
+
+.to-read {
+    background-image: linear-gradient(rgb(255, 211, 211), rgb(255, 119, 119));
+}
+
+.in-progress {
+    background-image: linear-gradient(rgb(211, 211, 255), rgb(119, 119, 255));
+}
