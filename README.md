@@ -2,7 +2,7 @@
 
 This is my submission for the second CSS certification project on freecodecamp.org. This project is part of the Responsive Web Design Certification, which in itself is also a section of the Certified Full Stack Developer Curriculum. I have listed the link to the project prompt, project instructions, and user stories that must be included in the project.
 
-<a href="https://mdbrown33.github.com/book-inventory">Click here to see this project live</a>
+<a href="https://www.matthewdbrown.dev/book-inventory">Click here to see this project live</a>
 
 <a text-size="16px" href="https://www.freecodecamp.org/learn/responsive-web-design-v9/lab-book-inventory-app/build-a-book-inventory-app">Link to Project on freeCodeCamp</a>
 <br>
