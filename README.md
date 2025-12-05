@@ -2,15 +2,24 @@
 
 This is my submission for the second CSS certification project on freecodecamp.org. This project is part of the Responsive Web Design Certification, which in itself is also a section of the Certified Full Stack Developer Curriculum. I have listed the link to the project prompt, project instructions, and user stories that must be included in the project.
 
-**Image of final project will be added at completion**
+<a text-size="16px" href="https://www.freecodecamp.org/learn/responsive-web-design-v9/lab-book-inventory-app/build-a-book-inventory-app">Link to Project on freeCodeCamp</a>
+<br>
+<hr>
+<br>
 
-https://www.freecodecamp.org/learn/responsive-web-design-v9/lab-book-inventory-app/build-a-book-inventory-app
+<img src="my-final.png">
+<br><br>
+<hr>
+<br>
+<img src="project-example.png" width="800" height="auto">
 
-![Example Project Image](project-example.png)
+<br>
+<hr>
+<br>
 
-Build an app that is functionally similar to this example project [available at project link above]. Try not to copy the example project, give it your own personal style.
+Instructions: Build an app that is functionally similar to this example project [available at project link above]. Try not to copy the example project, give it your own personal style.
 
-User Stories:
+**User Stories:**
 
 1. You should have an h1 element with the text Book Inventory.
 
