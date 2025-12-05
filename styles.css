@@ -4,14 +4,63 @@
     box-sizing: border-box;
 }
 
-.read {
+tr[class="read"] {
     background-image: linear-gradient(rgb(211, 255, 211), rgb(119, 255, 119));
 }
 
-.to-read {
-    background-image: linear-gradient(rgb(255, 211, 211), rgb(255, 119, 119));
+tr[class="to-read"] {
+    background-image: linear-gradient(rgb(255, 202, 202), rgb(249, 156, 156));
 }
 
-.in-progress {
-    background-image: linear-gradient(rgb(211, 211, 255), rgb(119, 119, 255));
+tr[class="in-progress"] {
+    background-image: linear-gradient(rgb(226, 226, 255), rgb(158, 158, 255));
+}
+
+span {
+    display: inline-block;
+}
+
+tr[class="to-read"] span[class="status"] {
+    border: 2px solid black;
+    border-radius: 25%;
+    background-image: linear-gradient(rgb(255, 126, 126), rgb(167, 52, 52));
+}
+
+tr[class="read"] span[class="status"] {
+    border: 2px solid black;
+    border-radius: 25%;
+    background-image: linear-gradient(rgb(126, 255, 126), rgb(52, 167, 52));
+}
+
+tr[class="in-progress"] span[class="status"] {
+    border: 2px solid black;
+    border-radius: 25%;
+    background-image: linear-gradient(rgb(126, 126, 255), rgb(52, 52, 167));
+}
+
+span[class="status"], span[class^="rate"] {
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+}
+
+span[class^="rate"] > span {
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: auto;
+    height: 15px;
+    width: 15px;
+    background-color: rgba(255, 255, 255, 0.44);
+}
+
+span[class~="one"] > span:first-child {
+    background-image: linear-gradient(rgb(255, 231, 92), gold);
+}
+
+span[class~="two"] > span:nth-child(-n+2) {
+    background-image: linear-gradient(rgb(255, 231, 92), gold);
+}
+
+span[class~="three"] > span {
+    background-image: linear-gradient(rgb(255, 231, 92), gold);
 }
